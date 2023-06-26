@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="script.js" defer></script>
+   <link rel="stylesheet" href="styles.css" />
+   <link rel="icon" href="https://raw.githubusercontent.com/Shahir-47/Etch-a-Sketch/main/img/icon.png" type="imge/png" />
+  <title>etch-a-sketch</title>
+</head>
+<body>
+  <h1><span class="etch">etch</span><span class="dash">-</span><span class="a">A</span><span class="dash">-</span><span class="sketch">sketch</span></h1>
+  <div class="content">
+    <div class="control-panel">
+    <h2>controls</h2>
+    <div class="color">
+     <label for="color-picker">color:</label> 
+     <input type="color" value="#ff0000" id="color-picker" />
+    </div>
+    <button class="rainbow">rainbow mode</button>
+    <button class="eraser">eraser</button>
+    <button class="clear">clear</button>
+    <div class="grid-line">
+    <label for="gridlines-toggle">toggle gridlines</label>
+    <input type="checkbox" id="gridlines-toggle"  checked/>
+    </div>
+    <div class="slider">
+    <label for="box-slider"><span class="box-count" >16</span>x<span class="box-count">16</span></label>
+    <input type="range" min="1" max="100" value="16" id="box-slider" />
+    </div>
+    </div>
+    <div class="grid"></div>
+  </div>
+  <footer>
+   <a href="https://github.com/gonzalote99"><img src="https://raw.githubusercontent.com/Shahir-47/Etch-a-Sketch/main/img/github.svg" alt="gitHub logo"   />me</a>
+  </footer>
+</body>
+</html>
